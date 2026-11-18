@@ -7,7 +7,14 @@ authors = [
     { name = "RIKARD OLEDAL", email = "rikardoledal@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pydantic_ai",
+    "lancedb",
+    "fastapi",
+    "logfire",
+    "logfire[fastapi]",
+    "cohere"
+]
 
 [project.scripts]
 backend = "backend:main"

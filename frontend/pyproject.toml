@@ -7,7 +7,7 @@ authors = [
     { name = "RIKARD OLEDAL", email = "rikardoledal@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = ["streamlit"]
 
 [project.scripts]
 frontend = "frontend:main"
